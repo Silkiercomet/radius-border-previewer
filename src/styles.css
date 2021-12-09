@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  position: relative;
+  padding: 1rem;
+}
+.inputs {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  display: flex;
+  flex-direction: column;
+}
+/* top border left */
+#top-left {
+  transform: rotate(90deg) translateX(-40px) translateY(120px);
+}
+/* bottom border right */
+#top-right {
+  transform: rotate(90deg) translateX(26px) translateY(-120px);
+}
+/* bottom border left */
+#bottom-right {
+  transform: translateY(110px);
+}
+/* top border right */
+#bottom-left {
+  transform: translateY(-140px);
+}
+.box {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
